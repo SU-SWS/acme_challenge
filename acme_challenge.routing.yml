@@ -1,0 +1,17 @@
+
+acme_challenge.challenge_controller_content:
+  path: '/.well-known/acme-challenge'
+  defaults:
+    _controller: '\Drupal\acme_challenge\Controller\ChallengeController::content'
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+
+acme_challenge.challenge_controller_content_key:
+  path: '/.well-known/acme-challenge/{key}'
+  defaults:
+    _controller: '\Drupal\acme_challenge\Controller\ChallengeController::content'
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+

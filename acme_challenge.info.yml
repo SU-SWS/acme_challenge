@@ -1,0 +1,6 @@
+name: 'Acme Challenge'
+type: module
+description: 'Provides a route for acme.sh LetsEncrypt challenges.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Security

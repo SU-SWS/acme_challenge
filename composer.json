@@ -1,0 +1,11 @@
+{
+    "name": "su-sws/acme_challenge",
+    "type": "drupal-custom-module",
+    "authors": [
+        {
+            "name": "Mike Decker",
+            "email": "pookmish@gmail.com"
+        }
+    ],
+    "require": {}
+}
